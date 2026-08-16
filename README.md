@@ -16,8 +16,8 @@ A Power BI data analysis project exploring the Titanic dataset to understand pas
 
 Data was cleaned and prepared using Power Query, including:
 
-* Handling missing `Age` values using the median.
-* Handling missing `Embarked` values using the mode.
+* Handling missing Age values using the median.
+* Handling missing Embarked values using the mode.
 * Creating Age Group, Family Size, and Is Alone columns.
 * Preparing data for visualization and analysis.
 
