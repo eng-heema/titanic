@@ -21,7 +21,7 @@ Data was cleaned and prepared using Power Query, including:
 * Creating Age Group, Family Size, and Is Alone columns.
 * Preparing data for visualization and analysis.
 
-## Dashboard
+## Dashboard 
 
 The dashboard includes:
 
