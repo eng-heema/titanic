@@ -1,57 +1,44 @@
-# Titanic Passenger Survival Analysis
+# Titanic Survival Analysis
 
 ## Overview
 
-A Power BI data analysis project exploring the Titanic dataset to understand passenger survival patterns and the factors associated with survival.
+A Power BI project exploring the Titanic dataset to understand passenger survival patterns and the factors associated with survival.
 
 ## Objectives
 
-* Analyze overall survival rates.
-* Compare survival by gender and passenger class.
-* Analyze survival across different age groups.
-* Explore survival by embarkation port.
-* Build an interactive and dynamic dashboard.
+- Analyze the overall survival rate.
+- Compare survival by gender and passenger class.
+- Analyze survival across age groups.
+- Explore survival by embarkation port.
+- Build an interactive dashboard.
 
 ## Data Preparation
 
-Data was cleaned and prepared using Power Query, including:
+Data was cleaned and prepared in Power Query:
 
-* Handling missing Age values using the median.
-* Handling missing Embarked values using the mode.
-* Creating Age Group, Family Size, and Is Alone columns.
-* Preparing data for visualization and analysis.
+- Filled missing Age values with the median.
+- Filled missing Embarked values with the mode.
+- Created Age Group, Family Size, and Is Alone columns.
 
-## Dashboard 
+## Dashboard
 
-The dashboard includes:
+KPIs: Total Passengers, Total Survivors, Total Deaths, Survival Rate, Average Age, Average Ticket Fare.
 
-* Total Passengers
-* Total Survivors
-* Total Deaths
-* Survival Rate
-* Average Age
-* Average Ticket Fare
-* Survival by Gender
-* Survival Rate by Passenger Class
-* Survival Rate by Age Group
-* Survival Rate by Embarkation Port
+Charts: survival by gender, passenger class, age group, and embarkation port.
 
-Interactive slicers allow users to filter the dashboard by Age Group, Pclass, Sex, Embarked, and Survival Status.
+Slicers: Age Group, Pclass, Sex, Embarked, and Survival Status.
 
 ## Key Insights
 
-* Overall survival rate was 38.4%.
-* Female passengers had a significantly higher survival rate than male passengers.
-* 1st Class passengers had the highest survival rate.
-* 3rd Class passengers had the lowest survival rate.
-* Survival rates varied across different age groups.
+- The overall survival rate was **38.4%** compared with **61.6%** death.
+- Women survived at **74.2%**, compared with **25.8%** for men.
+- 1st class had the highest survival rate **63%** and 3rd class the lowest **24.2%**.
+- The **Child** had the highest survival rate, and **Older** the lowest.
 
 ## Tools
 
-Power BI | Power Query | DAX | Data Analysis | Data Visualization
+Power BI, Power Query, DAX
 
 ## Project Type
 
-Exploratory Data Analysis & Business Intelligence
-
-This project focuses on data analysis and visualization without using Machine Learning.
+Exploratory data analysis and business intelligence. This project focuses on analysis and visualization and does not use machine learning.
